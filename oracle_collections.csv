@@ -1,0 +1,6 @@
+collection,DeliveryTargetName,TermsOfUse,Usage,Usergroup,role,comment,withdraw_comment,overrideUser
+Marketing Customer Data,Oracle Cloud,ANY,Marketing,ANY,NSEN_READ_ACCESS,Order Fullfilled. Access the Assets (within the NSEN Schema) at: https://GDDCDC5B5DB156E-CDGC.adb.us-ashburn-1.oraclecloudapps.com/ords/sql-developer,Access withdrawn,MARA
+Marketing Customer Data,Oracle Cloud,ANY,Analytics,ANY,NSEN_MASKED_READ_ACCESS,Order Fullfilled. Access the Assets (within the NSEN_MASKED Schema) at: https://GDDCDC5B5DB156E-CDGC.adb.us-ashburn-1.oraclecloudapps.com/ords/sql-developer,Access withdrawn,MARA
+Analytical Marketing Customer Data,Oracle Cloud,ANY,Analytics,ANY,NSEN_MASKED_READ_ACCESS,Order Fullfilled. Access the Assets (within the NSEN_MASKED Schema) at: https://GDDCDC5B5DB156E-CDGC.adb.us-ashburn-1.oraclecloudapps.com/ords/sql-developer,Access withdrawn,MARA
+Marketing Customer Data,Oracle Cloud,ANY,Operation,ANY,NSEN_READ_ACCESS,Order Fullfilled. Access the Assets (within the NSEN Schema) at: https://GDDCDC5B5DB156E-CDGC.adb.us-ashburn-1.oraclecloudapps.com/ords/sql-developer,Access withdrawn,MARA
+Marketing Customer Data,Oracle Cloud,ANY,Regulatory Reporting,ANY,NSEN_READ_ACCESS,Order Fullfilled. Access the Assets (within the NSEN Schema) at: https://GDDCDC5B5DB156E-CDGC.adb.us-ashburn-1.oraclecloudapps.com/ords/sql-developer,Access withdrawn,MARA

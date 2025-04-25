@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "ee29bacd-9557-4ec1-87bc-78876752589f",
+		"name": "SimpleCDMP APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7018930"
+	},
+	"item": [
+		{
+			"name": "simpleGetApprovedOrders",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"action\": \"categories\"\r\n}"
+				},
+				"url": {
+					"raw": "{{INFA_cai_api_url}}/active-bpel/rt/simpleCDMPGetApprovedOrders",
+					"host": [
+						"{{INFA_cai_api_url}}"
+					],
+					"path": [
+						"active-bpel",
+						"rt",
+						"simpleCDMPGetApprovedOrders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "simpleGetComments",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"action\": \"categories\"\r\n}"
+				},
+				"url": {
+					"raw": "{{INFA_cai_api_url}}/active-bpel/rt/simpleCDMPGetComments?objectId=f9372e5d-6b12-4edf-9147-42fd0417309b",
+					"host": [
+						"{{INFA_cai_api_url}}"
+					],
+					"path": [
+						"active-bpel",
+						"rt",
+						"simpleCDMPGetComments"
+					],
+					"query": [
+						{
+							"key": "objectId",
+							"value": "f9372e5d-6b12-4edf-9147-42fd0417309b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "simpleGetConsumerAccessPendingWithdraw",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"action\": \"categories\"\r\n}"
+				},
+				"url": {
+					"raw": "{{INFA_cai_api_url}}/active-bpel/rt/simpleCDMPGetConsumerAccessPendingWithdraw",
+					"host": [
+						"{{INFA_cai_api_url}}"
+					],
+					"path": [
+						"active-bpel",
+						"rt",
+						"simpleCDMPGetConsumerAccessPendingWithdraw"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "simpleGetDeliveryTargets",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{INFA_cai_api_url}}/active-bpel/rt/simpleCDMPGetDeliveryTargets",
+					"host": [
+						"{{INFA_cai_api_url}}"
+					],
+					"path": [
+						"active-bpel",
+						"rt",
+						"simpleCDMPGetDeliveryTargets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "simpleFulfillOrder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{INFA_cai_api_url}}/active-bpel/rt/simpleCDMPFulfillOrder?DeliveryId=00ec745c-be0f-4a43-b737-d03514dbde2f&OrderId=bba6afee-6b2c-4567-bd75-924c906a309a&Comment=https://dbc-f275d626-76dc.cloud.databricks.com/explore",
+					"host": [
+						"{{INFA_cai_api_url}}"
+					],
+					"path": [
+						"active-bpel",
+						"rt",
+						"simpleCDMPFulfillOrder"
+					],
+					"query": [
+						{
+							"key": "DeliveryId",
+							"value": "00ec745c-be0f-4a43-b737-d03514dbde2f"
+						},
+						{
+							"key": "OrderId",
+							"value": "bba6afee-6b2c-4567-bd75-924c906a309a"
+						},
+						{
+							"key": "costCenter",
+							"value": "North America Sales",
+							"disabled": true
+						},
+						{
+							"key": "Comment",
+							"value": "https://dbc-f275d626-76dc.cloud.databricks.com/explore"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "simpleWithdrawAccess",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{INFA_cai_api_url}}/active-bpel/rt/simpleCDMPWithdrawAccess?Comment=Access Auto Withdrawn&AccessId=08ab3875-2f57-40dc-ad81-622a464ea00b",
+					"host": [
+						"{{INFA_cai_api_url}}"
+					],
+					"path": [
+						"active-bpel",
+						"rt",
+						"simpleCDMPWithdrawAccess"
+					],
+					"query": [
+						{
+							"key": "Comment",
+							"value": "Access Auto Withdrawn"
+						},
+						{
+							"key": "AccessId",
+							"value": "08ab3875-2f57-40dc-ad81-622a464ea00b"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "shayes",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "password",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "INFA_cai_api_url",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

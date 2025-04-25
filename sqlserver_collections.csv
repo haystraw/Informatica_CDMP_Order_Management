@@ -1,0 +1,2 @@
+collection,DeliveryTargetName,TermsOfUse,Usage,Usergroup,role,comment,withdraw_comment,overrideUser
+Marketing Customer Data,SQLServer,ANY,ANY,ANY,nsen_data_masked,Order Fullfilled. Access the Assets using your login in SQLServer (jdbc:sqlserver://az-sqldb-server.database.windows.net:1433;databaseName=NSEN;encrypt=true),Access withdrawn,mjade

@@ -1,0 +1,3 @@
+collection,DeliveryTargetName,TermsOfUse,Usage,Usergroup,database,comment,withdraw_comment,overrideUser
+Customer Transactions History,AWS Athena,ANY,ANY,ANY,"{ ""Table"": { ""DatabaseName"": ""nsen"", ""TableWildcard"": {} } }",Order Fullfilled. Access the Assets (within Athena) at: https://848938471079.signin.aws.amazon.com/console,Access withdrawn,demo_user-1
+Customer Transactions History,None,None,ANY,ANY,nsen,Order Fullfilled. Access the Assets (within Athena) at: https://848938471079.signin.aws.amazon.com/console,Access withdrawn,demo_user-1
